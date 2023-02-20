@@ -9,21 +9,39 @@ import menuTop from './assets/menu-top-xs.png'
 function App() {
 
   return <div className="App">
-
-<div>
-         <img  className="logo" src={ironhackLogo} alt="ironhackLogo" />
+<section className='upper-part' >
+      <div className='header'>
+         <img src={ironhackLogo} alt="ironhackLogo" />
          <img src={menuTop} alt="menuTop" />
       </div>
-
-<section>
-
-<img src={icon} alt='example' /> 
-
-<img src={icontwo} alt='example' /> 
-
-<img src={iconthree} alt='example' /> 
-<img src={iconfour} alt='example' /> 
-</section>
+      <div className='upper-part-body'>
+        <h1>Say hello to ReactJs</h1>
+        <p> You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
+        <button className='btn'>Awesome</button>
+      </div>
+    </section>
+    <section className='bottom-part' >
+      <div >
+        <img src={icon} alt="icon1" />
+        <h3>Declarative</h3>
+        <p>Banana</p>
+      </div>
+      <div>
+        <img src={icontwo} alt="icon2" />
+        <h3>Components</h3>
+        <p></p>
+      </div>
+      <div>
+        <img src={iconthree} alt="icon3" />
+        <h3>Single Way</h3>
+        <p></p>
+      </div>
+      <div>
+        <img src={iconfour} alt="icon4" />
+        <h3>JSX</h3>
+        <p></p>
+      </div>
+    </section>
   </div>
  
 }
